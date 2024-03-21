@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "Bachlor's Degree",
     location: "Boston, United States",
     description:
-      "I graduated from Boston University with a degree in Computer Science. With Android Internship experience, I also worked as a teaching assistant for CS591 Android Application Development for 1 year.",
+      "I earned my degree in Computer Science from Boston University. Alongside an internship in Android development in 2017, I also spent a year working as a teaching assistant for the CS591 Android Application Development course.",
     icon: React.createElement(LuGraduationCap),
     date: "2014 - 2018",
   },
@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Full-Stack Developer, Full-Time",
     location: "Hangzhou, China",
     description:
-      "I worked as a full-stack developer for 4 years at Shangjingyun Technology Co., Ltd.. I significantly improved my coding skills and also project and team management skills.",
+      "For four years, I was a full-stack developer at Shangjingyun Technology Co., Ltd., where I significantly honed my coding abilities, as well as my project and team management skills.",
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2022",
   },
@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Master's Degree",
     location: "Sydney, Australia",
     description:
-      "I'm currently studying for dual degree in Master of IT & Master of IT Management specialized in Data Management and Analystics at University of Sydney. I am also working as a research student with Professor Xiuying Wang, focusing on Knowledge-driven Traffic Image Analysis.",
+      "I'm currently pursuing a dual degree in Master of IT and Master of IT Management, specializing in Data Management and Analytics, at the University of Sydney. Additionally, I'm working as a research student under Professor Xiuying Wang, with a focus on Knowledge-driven Traffic Image Analysis.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - 2024",
   },
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Full-Stack Developer, Intern",
     location: "Sydney, Australia",
     description:
-      "I'm now a full-stack developer working as a intern for EE-Shopping-Center. I'm open to full-time opportunities.",
+      "I'm currently a full-stack developer interning at EE-Shopping-Center and am open to full-time job opportunities.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - present",
   },
@@ -74,15 +74,15 @@ export const projectsData = [
     title: "EE-Shopping-Center",
     progress: 1,
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "MySQL", "AWS"],
+      "Fully functional e-commerce web application with Stripe payment integration. The project was built using Next.js and MongoDB.",
+    tags: ["React", "Next.js", "MongoDB", "MySQL", "AWS", "Stripe"],
     imageUrl: eeShoppingCenter,
   },
   {
     title: "ZhengyuanJin.Digital",
     progress: 2,
     description:
-      "My personal website.I built it with Next.js and Tailwind. It's hosted on AWS.",
+      "I developed my personal website using Next.js and Tailwind, and it's currently hosted on AWS.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "AWS"],
     imageUrl: zhengyuanjin,
   },
@@ -90,7 +90,7 @@ export const projectsData = [
     title: "Facial Recognition Big Data Platform",
     progress: 2,
     description:
-      "Built for Zhejiang Police Department. Storing and analysing over 300 millions of capture data. Won a 9-million contract for SenseTime.",
+      "Storing and analysis over 300 million of facial captured data. Currently used by the Zhejiang Police Department and owned by SenseTime.",
     tags: ["SpringMVC", "MongoDB", "MySQL"],
     imageUrl: facial,
   },
@@ -98,7 +98,7 @@ export const projectsData = [
     title: "Ningbo Health Code",
     progress: 3,
     description:
-      "Created for Ningbo Government for manaing COVID-19 spread. Used by over 15 million users, 20 million daily usage.",
+      "Developed for the Ningbo Government to manage the spread of COVID-19, this solution is now utilized by over 15 million users, with daily usage reaching 20 million.",
     tags: [
       "WeChat Miniprogram",
       "SpringMVC",
