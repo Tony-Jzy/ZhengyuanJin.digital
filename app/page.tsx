@@ -5,17 +5,20 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import PlausibleProvider from "next-plausible";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center px-4">
-      <Intro />
-      <SectionDivider />
-      <About />
-      <Projects />
-      <Skills />
-      <Experience />
-      <Contact />
-    </main>
+    <PlausibleProvider domain="zhengyuanjin.digital">
+      <main className="flex flex-col items-center px-4">
+        <Intro />
+        <SectionDivider />
+        <About />
+        <Projects />
+        <Skills />
+        <Experience />
+        <Contact />
+      </main>
+    </PlausibleProvider>
   );
 }
