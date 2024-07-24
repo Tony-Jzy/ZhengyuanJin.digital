@@ -2,7 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import eeShoppingCenter from "@/public/ee-shopping-center.png";
+import what2Eat from "@/public/what2eat.png";
+import eeShoppingCenter from "@/public/ee-supply.png";
 import zhengyuanjin from "@/public/zhengyuanjin.png";
 import facial from "@/public/facial-big-data.png";
 import healthCode from "@/public/ningbo-health-code.png";
@@ -60,19 +61,35 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Full-Stack Developer, Intern",
+    title: "Full-Stack Developer, Freelance",
     location: "Sydney, Australia",
     description:
-      "I'm currently a full-stack developer interning at EE-Shopping-Center and am open to full-time job opportunities.",
+      "I worked as full-stack developer freelancing at EE Corporation, where I developed a fully functional e-commerce web application with Stripe payment integration, deployed with a robust network architecture on AWS, ensured high availability and scalability, and optimized the performance of the application.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - present",
+    date: "2024.3 - 2024.5",
+  },
+  {
+    title: "Full-Stack Developer, Part-Time",
+    location: "Sydney, Australia",
+    description:
+      "I'm currently working at Valearnis. I am develop and maintain an Al online learning platform using React, Typescript, Python, Django, PostgreSQL, Redis and GPT-4.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024.5 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "EE-Shopping-Center",
+    title: "What2Eat",
     progress: 1,
+    description:
+      "An AI dish recommendation system that suggests daily meals. The project is designed and planned with Figma and is currently under development.",
+    tags: ["Figma", "Next.js", "MongoDB", "Github Action", "Stripe"],
+    imageUrl: what2Eat,
+  },
+  {
+    title: "eesupply.com.au",
+    progress: 2,
     description:
       "Fully functional e-commerce web application with Stripe payment integration. The project was built using Next.js and MongoDB.",
     tags: ["React", "Next.js", "MongoDB", "MySQL", "AWS", "Stripe"],
