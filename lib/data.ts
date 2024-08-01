@@ -45,12 +45,20 @@ export const experiencesData = [
     date: "2014 - 2018",
   },
   {
-    title: "Full-Stack Developer, Full-Time",
+    title: "Software Developer, Full-Time",
     location: "Hangzhou, China",
     description:
       "For four years, I was a full-stack developer at Shangjingyun Technology Co., Ltd., where I significantly honed my coding abilities, as well as my project and team management skills.",
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2022",
+  },
+  {
+    title: "Software Developer, Full-Time",
+    location: "Shanghai, China",
+    description:
+      "At the company, I was responsible for web development and system design, focusing on creating and maintaining the website using modern technologies, optimizing SEO, and ensuring secure data transactions through robust backend solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
   },
   {
     title: "Master's Degree",
@@ -61,7 +69,7 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Full-Stack Developer, Freelance",
+    title: "Full-Stack Developer, Part-Time",
     location: "Sydney, Australia",
     description:
       "I worked as full-stack developer freelancing at EE Corporation, where I developed a fully functional e-commerce web application with Stripe payment integration, deployed with a robust network architecture on AWS, ensured high availability and scalability, and optimized the performance of the application.",
@@ -72,7 +80,7 @@ export const experiencesData = [
     title: "Full-Stack Developer, Part-Time",
     location: "Sydney, Australia",
     description:
-      "I'm currently working at Valearnis. I am develop and maintain an Al online learning platform using React, Typescript, Python, Django, PostgreSQL, Redis and GPT-4.",
+      "I'm currently working at ManezCo Pty. Ltd. In this company, I am responsible for developing and maintaining an AI online learning platform, leading CI/CD pipeline implementation, ensuring platform quality through testing, and utilizing Docker for consistent environment management.",
     icon: React.createElement(CgWorkAlt),
     date: "2024.5 - present",
   },
@@ -91,8 +99,8 @@ export const projectsData = [
     title: "eesupply.com.au",
     progress: 2,
     description:
-      "Fully functional e-commerce web application with Stripe payment integration. The project was built using Next.js and MongoDB.",
-    tags: ["React", "Next.js", "MongoDB", "MySQL", "AWS", "Stripe"],
+      "Fully functional e-commerce web application with Stripe payment integration. The project was built using Next.js and MongoDB. The website is deployed on AWS.",
+    tags: ["Next.js", "MongoDB", "GitHub Actions", "AWS", "Stripe"],
     imageUrl: eeShoppingCenter,
   },
   {
@@ -143,6 +151,9 @@ export const skillsData = [
   "MongoDB",
   "MySQL",
   "Redis",
+  "CI/CD",
+  "Jest",
+  "GitHub Actions",
   "AWS",
   "Linux",
   "Docker",
